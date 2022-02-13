@@ -113,6 +113,11 @@
         <!-- UI+Integration testing -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-edge-driver</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
             <version>4.0.0</version>
             <scope>test</scope>
@@ -143,7 +148,6 @@
         </dependency>
 
         <!-- required only by  SqlControllerTest -->
-        <!--
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-mock</artifactId>
@@ -156,7 +160,7 @@
             <version>3.2.18.RELEASE</version>
             <scope>test</scope>
         </dependency>
-         -->
+
         <!-- Keyword driven test -->
         <!--
         <dependency>
@@ -191,8 +195,8 @@
         -->
     </dependencies>
     <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>

@@ -1,0 +1,3 @@
+/* create new table */;create table t_name ("name" char, number integer);// insert first line
+insert into t_name values ('a',1);--insert second line
+insert into t_name values ('b',2);/*/* end of file */*/;
